@@ -23,6 +23,9 @@ class Passenger{
       this.name = name;
       ++this.id;
     }
+
+  trips(){}
+  drivvvers(){}
 }
 
 Passenger.prototype.id = 0;
