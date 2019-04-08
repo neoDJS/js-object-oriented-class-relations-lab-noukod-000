@@ -21,7 +21,7 @@ class Driver{
         }.bind(this)
     );
   }
-  
+
   passengers(){
     return store.passengers.filter(
         function(passenger) {
