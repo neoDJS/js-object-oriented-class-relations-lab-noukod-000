@@ -1,3 +1,4 @@
+store = { drivers: [], passengers: [], trips: [] };
 class Common{
     constructor(name){
       this.name = name;
