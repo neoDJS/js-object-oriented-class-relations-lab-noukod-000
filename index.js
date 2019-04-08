@@ -14,8 +14,21 @@ class Driver{
       store.drivers.push(this);
     }
 
-  trips(){}
-  passengers(){}
+  trips(){
+    return store.trips.filter(
+        function(trip) {
+            return trip.driverId === this.id;
+        }.bind(this)
+    );
+  }
+  
+  passengers(){
+    return store.passengers.filter(
+        function(passenger) {
+            return passenger.driverId === this.id;
+        }.bind(this)
+    );
+  }
 }
 
 Driver.prototype.id = 0;
