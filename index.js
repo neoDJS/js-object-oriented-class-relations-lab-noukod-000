@@ -79,4 +79,3 @@ class Trip{
   }
 }
 
-Trip.prototype.id = 0;
