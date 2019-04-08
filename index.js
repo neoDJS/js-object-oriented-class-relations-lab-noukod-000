@@ -49,4 +49,4 @@ class Trip{
   passenger(){}
 }
 
-Passenger.prototype.id = 0;
+Trip.prototype.id = 0;
