@@ -49,7 +49,13 @@ class Passenger{
         }.bind(this)
     );
   }
-  drivers(){}
+  drivers(){
+    return store.drivers.filter(
+        function(driver) {
+            return driver.passengerId === this.id;
+        }.bind(this)
+    );
+  }
 }
 
 Passenger.prototype.id = 0;
