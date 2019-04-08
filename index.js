@@ -25,7 +25,7 @@ class Passenger{
     }
 
   trips(){}
-  drivvvers(){}
+  drivers(){}
 }
 
 Passenger.prototype.id = 0;
