@@ -1,10 +1,11 @@
 
 class Driver{
-  constructor(trips){
-    this.trips = trips
+  constructor(name){
+    this.name = name
     ++this.id;
   }
 
+  trips(){}
   passengers(){}
 }
 
