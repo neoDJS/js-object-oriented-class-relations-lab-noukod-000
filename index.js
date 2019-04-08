@@ -1,4 +1,6 @@
 store = { drivers: [], passengers: [], trips: [] };
+let driverId = 0, passengerId = 0, tripId = 0;
+
 class Common{
     constructor(name){
       this.name = name;
