@@ -1,17 +1,11 @@
 store = { drivers: [], passengers: [], trips: [] };
 let driverId = 0, passengerId = 0, tripId = 0;
 
-class Common{
-    constructor(name){
-      this.name = name;
-      ++this.id;
-    }
-}
 
 class Driver{
     constructor(name){
       this.name = name;
-      ++this.id;
+      this.id = ++driverId;
 
       store.drivers.push(this);
     }
