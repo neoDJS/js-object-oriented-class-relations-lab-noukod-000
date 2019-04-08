@@ -29,3 +29,12 @@ class Passenger{
 }
 
 Passenger.prototype.id = 0;
+
+class Trip{
+  constructor(driver, passenger){
+    this.driver = driver
+    this.passenger = passenger
+  }
+}
+
+Passenger.prototype.id = 0;
