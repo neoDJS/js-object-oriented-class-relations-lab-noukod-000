@@ -39,9 +39,9 @@ class Trip{
   }
 
   driver(){
-    return store.users.find(
-        function(user) {
-            return user.id === this.userId;
+    return store.trips.find(
+        function(driver) {
+            return driver.id === this.driverId;
         }.bind(this)
     );
   }
