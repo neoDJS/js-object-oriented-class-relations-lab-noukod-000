@@ -52,7 +52,6 @@ class Passenger{
   }
 }
 
-Passenger.prototype.id = 0;
 
 class Trip{
   constructor(driver, passenger){
