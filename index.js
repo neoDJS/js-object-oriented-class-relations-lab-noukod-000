@@ -5,7 +5,7 @@ class Common{
     }
 }
 
-class Driver extends Common {
+class Driver{
     constructor(name){
       this.name = name;
       ++this.id;
@@ -18,7 +18,7 @@ class Driver extends Common {
 Driver.prototype.id = 0;
 
 
-class Passenger extends Common{
+class Passenger{
     constructor(name){
       this.name = name;
       ++this.id;
