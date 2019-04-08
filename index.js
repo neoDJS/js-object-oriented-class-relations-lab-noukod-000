@@ -1,6 +1,7 @@
 class Driver{
-  constructor(trips, passengers){
+  constructor(trips){
     this.trips = trips
-    this.passengers = passengers
   }
+
+  passengers(){}
 }
