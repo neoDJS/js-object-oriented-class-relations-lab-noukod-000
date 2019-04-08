@@ -1,3 +1,4 @@
+
 class Driver{
   constructor(trips){
     this.trips = trips
@@ -5,3 +6,5 @@ class Driver{
 
   passengers(){}
 }
+
+Driver.prototype.id = 0;
