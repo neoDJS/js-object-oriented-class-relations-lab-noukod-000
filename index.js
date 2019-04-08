@@ -17,3 +17,5 @@ Driver.prototype.id = 0;
 class Passenger extends Common{
   constructor(name){}
 }
+
+Passenger.prototype.id = 0;
