@@ -36,6 +36,8 @@ class Trip{
     this.passengerId = passenger.id
     ++this.id;
   }
+  driver(){}
+  passenger(){}
 }
 
 Passenger.prototype.id = 0;
